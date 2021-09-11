@@ -89,7 +89,7 @@ void UBullCowCartridge::ProcessGuess(FString Guess)
     PrintLine(TEXT("Trying guessing again, you have %i lives left"), Lives);
 }
 
-bool UBullCowCartridge::bIsIsogram(FString Word)
+bool UBullCowCartridge::bIsIsogram(FString Word) const
 {
     // For each letter
     // Start at the first letter Word[0]
